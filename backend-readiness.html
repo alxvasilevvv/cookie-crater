@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COOKIE CRATER · Backend Readiness</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #170c12; color: #fff2cf; }
+    body { margin: 0 auto; padding: 32px 20px 56px; max-width: 760px; line-height: 1.55; }
+    h1, h2 { color: #ffb53d; line-height: 1.12; }
+    code { color: #ffda80; }
+    .status { border: 1px solid #fd7d3d; border-radius: 12px; padding: 14px 16px; background: #2b1118; }
+    a { color: #8fddff; }
+  </style>
+</head>
+<body>
+  <h1>COOKIE CRATER v14 backend readiness</h1>
+  <p class="status"><strong>Public Online is unavailable.</strong> This static deployment has no hosted match service or database.</p>
+  <p>v14 supplies the durable backend foundation: protocol 3 authoritative snapshots, HMAC-hashed reconnect credentials, transactional command/reward idempotency, room leases with fencing tokens, restart recovery, retention and backup tooling, and a versioned PostgreSQL contract.</p>
+  <h2>Owner infrastructure required</h2>
+  <ul>
+    <li>A managed PostgreSQL database with migrations and tested restore.</li>
+    <li>A TLS container host exposing <code>wss://…/match</code>, health, readiness and metrics.</li>
+    <li>A concrete PostgreSQL executor and production notification transport.</li>
+    <li>Unique instance IDs, lease timings, exact allowed origins, Telegram bot token and session-HMAC secrets.</li>
+    <li>Monitoring, backup retention, load/restart validation and an operational rollback owner.</li>
+  </ul>
+  <p>Only after that service is verified should a client build set <code>VITE_MATCH_MODE=online</code> and <code>VITE_MATCH_WS_URL</code>. Practice remains private, local and playable without these services.</p>
+  <p><a href="/">Return to COOKIE CRATER</a></p>
+</body>
+</html>

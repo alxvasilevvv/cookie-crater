@@ -1,0 +1,7 @@
+{
+  "name": "cookie-crater",
+  "description": "COOKIE CRATER \u2014 tactical artillery on a destructible confectionery arena.",
+  "build": {
+    "type": "static"
+  }
+}
