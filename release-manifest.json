@@ -3,7 +3,7 @@
   "release": "16.0.0",
   "protocol": 3,
   "rules": "2026.08.7-v13",
-  "generatedAt": "2026-08-26T04:53:44.976Z",
+  "generatedAt": "2026-08-26T18:34:06.457Z",
   "immutableFiles": [
     {
       "path": "_headers",
@@ -491,14 +491,14 @@
       "sha256": "8151b4abcebbb426c7c349b038f5146bcf3c71a83214fed8ec3a71f682d97f8c"
     },
     {
-      "path": "assets/index-D_xkoQJZ.js",
-      "bytes": 809045,
-      "sha256": "6cd0ba3ae7a46d23ebcd15def6e8af1d9d951ad47edf0c9a96f79f5d1bab29d6"
+      "path": "assets/index-BD5X-Yx6.css",
+      "bytes": 155725,
+      "sha256": "ed5374ccdbc64258fafad0794054328882b155d86d36da1ebf2172abead9c59e"
     },
     {
-      "path": "assets/index-FyTjra-i.css",
-      "bytes": 155317,
-      "sha256": "b1f0b8cc6b6c2f533321fbb03d9947f2c9365f90d6e0da5e8c39a8a060ac0ba3"
+      "path": "assets/index-BenTwQZf.js",
+      "bytes": 810566,
+      "sha256": "0e8e104d7e8947351153c44c9e370a079a6f031604d57fd417c6ebac9c041883"
     },
     {
       "path": "assets/init-CxLHQiY2.js",
@@ -998,7 +998,7 @@
     {
       "path": "index.html",
       "bytes": 5765,
-      "sha256": "d0d937470b34576cf70c81c8996ffd801d8ad8a522e1d0ff34d0719a130ca9da"
+      "sha256": "38706a06f06b278fd7212868627a5d7d3e82c17ddb4acdeb39eaf0b65c7ec256"
     },
     {
       "path": "privacy.html",
